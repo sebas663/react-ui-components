@@ -1,5 +1,4 @@
-import { Button } from "./stories/Button";
-import { Header } from "./stories/Header";
-import { Page } from "./stories/Page";
+import { Button } from "./atoms";
+import { Header } from "./molecules";
 
-export { Button, Header, Page };
+export { Button, Header };
