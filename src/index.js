@@ -1,4 +1,4 @@
-import { Button } from "./atoms";
-import { Header } from "./molecules";
+import { Button } from "components/atoms";
+import { Header } from "components/molecules";
 
 export { Button, Header };
