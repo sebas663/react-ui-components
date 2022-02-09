@@ -34,7 +34,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  console.log(size);
+  console.log("actualizo", size);
   return (
     <button
       type="button"
