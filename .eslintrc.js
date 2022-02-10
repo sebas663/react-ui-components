@@ -24,17 +24,5 @@ module.exports = {
   },
   rules: {
     "import/extensions": ["error", "never"],
-    // "react/prop-types": "off",
-    // "react/require-default-props": "off",
-    // "import/prefer-default-export": "off",
-    "react-hooks/rules-of-hooks": "off",
-    "react-hooks/exhaustive-deps": "off",
-    "react/function-component-definition": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": "off",
-    "object-curly-newline": "off",
-    "import/no-extraneous-dependencies": "off",
-    "react/jsx-one-expression-per-line": 0,
-    "react/no-unescaped-entities": 0,
   },
 };
