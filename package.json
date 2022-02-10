@@ -63,7 +63,9 @@
     "build": "webpack --config webpack.config.js",
     "prepare": "yarn build && husky install",
     "prettier": "prettier --write .",
-    "test:prettier": "prettier --check ."
+    "test:prettier": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",

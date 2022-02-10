@@ -1,5 +1,5 @@
 import "./theme/main.scss";
-import { Button } from "components/atoms";
-import { Header } from "components/molecules";
+import atoms from "components/atoms";
+import molecules from "components/molecules";
 
-export { Button, Header };
+export default { ...atoms, ...molecules };

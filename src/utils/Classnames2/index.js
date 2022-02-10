@@ -3,6 +3,6 @@ import * as classnameLib from "classnames";
 // pasas clases condicionales y todas son false generando un <div classname="null" />
 // entonces si devuelve null el wraper devuelve undefined esto genera <div />
 // no se agraga el classname en el div
-const Classnames = (...args) => classnameLib(...args) || undefined;
+const Classnames2 = (...args) => classnameLib(...args) || undefined;
 
-export default Classnames;
+export default Classnames2;
